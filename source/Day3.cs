@@ -1,7 +1,4 @@
-﻿using System.Xml.Schema;
-using System.Text;
-using System;
-namespace adventofcode.source
+﻿namespace adventofcode.source
 {
     public static class Day3
     {
