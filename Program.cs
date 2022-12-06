@@ -11,7 +11,7 @@ namespace adventofcode
         {
             string workingDirectory = Environment.CurrentDirectory;
             string folder = Directory.GetParent(workingDirectory).FullName + "\\Advent_2022\\";
-            string path = Path.Combine(folder, @"data/day5.txt");
+            string path = Path.Combine(folder, @"data/day6.txt");
             string[] lines = TextParser.ReadLines(path);
             string answer = "";
             //answer = Day1.Part1(lines);
@@ -22,11 +22,9 @@ namespace adventofcode
             //answer = Day3.Part2(lines);
             //answer = Day4.Part2(lines);
             //answer = Day5.Part1(lines);
-            answer = Day5.Part2(lines);
-            //string Day5Part1Answer = Day5.Part1(lines);
-            //string Day5Part2Answer = Day5.Part2(lines);
-            //string Day6Part1Answer = Day6.Part1(lines);
-            //string Day6Part2Answer = Day6.Part2_Good(lines);
+            //answer = Day5.Part2(lines);
+            //answer = Day6.Part1(lines);
+            answer = Day6.Part2(lines);
             //string Day7Part1Answer = Day7.Part1(lines);
             //string Day7Part2Answer = Day7.Part2(lines);
             //string Day8Part1Answer = Day8.Part1(lines);

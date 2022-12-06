@@ -1,5 +1,5 @@
-using System.Data.Common;
 using System.Text.RegularExpressions;
+
 namespace adventofcode.source
 {
     public static class Day5
